@@ -11,7 +11,7 @@ export const Hero = () => {
           letterSpacing: '0.2em',
           textTransform: 'uppercase'
         }}>
-          AI<span className="text-[#0F0] font-bold">FT</span>
+          Evolution of Digital Innovation
         </h1>
         <p className="text-lg md:text-xl text-[#0F0] max-w-2xl mx-auto mb-12 tracking-wide font-mono">
           Pioneering the next evolution of digital innovation
