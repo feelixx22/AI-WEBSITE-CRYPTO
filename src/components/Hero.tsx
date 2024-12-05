@@ -6,8 +6,12 @@ export const Hero = () => {
       <MatrixRain />
       <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/80" />
       <div className="container mx-auto px-6 py-32 text-center relative z-10 reveal">
-        <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold mb-8 tracking-tighter text-white font-mono">
-          AI<span className="text-[#0F0]">FT</span>
+        <h1 className="text-5xl md:text-7xl lg:text-9xl tracking-[0.2em] mb-8 text-white" style={{
+          fontFamily: "'Orbitron', sans-serif",
+          letterSpacing: '0.2em',
+          textTransform: 'uppercase'
+        }}>
+          AI<span className="text-[#0F0] font-bold">FT</span>
         </h1>
         <p className="text-lg md:text-xl text-[#0F0] max-w-2xl mx-auto mb-12 tracking-wide font-mono">
           Pioneering the next evolution of digital innovation
