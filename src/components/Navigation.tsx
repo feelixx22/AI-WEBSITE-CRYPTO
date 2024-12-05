@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Button } from './ui/button';
 
 export const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -24,6 +25,30 @@ export const Navigation = () => {
         }}>
           AI<span className="text-[#0F0] font-bold">FT</span>
         </a>
+        
+        <div className="flex items-center gap-4">
+          <Button
+            variant="ghost"
+            className="text-white hover:text-[#0F0] hover:bg-transparent font-mono"
+            onClick={() => window.open('https://ca.com', '_blank')}
+          >
+            CA
+          </Button>
+          <Button
+            variant="ghost"
+            className="text-white hover:text-[#0F0] hover:bg-transparent font-mono"
+            onClick={() => window.open('https://twitter.com', '_blank')}
+          >
+            TWITTER
+          </Button>
+          <Button
+            variant="ghost"
+            className="text-white hover:text-[#0F0] hover:bg-transparent font-mono"
+            onClick={() => window.open('https://telegram.org', '_blank')}
+          >
+            TELEGRAM
+          </Button>
+        </div>
       </div>
     </nav>
   );
