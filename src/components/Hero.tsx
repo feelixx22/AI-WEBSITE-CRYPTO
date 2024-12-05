@@ -11,7 +11,7 @@ export const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black" />
       <div className="container mx-auto px-6 py-32 text-center relative z-10 reveal">
         <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold mb-8 tracking-tighter text-white">
-          FUTURE<span className="text-[#9b87f5]">TECH</span>
+          AI<span className="text-[#9b87f5]">FT</span>
         </h1>
         <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-12 tracking-wide">
           Pioneering the next evolution of digital innovation

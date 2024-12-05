@@ -18,7 +18,7 @@ export const Navigation = () => {
     }`}>
       <div className="container mx-auto px-6 flex items-center justify-between">
         <a href="/" className="text-2xl font-semibold text-white">
-          FUTURE<span className="text-[#9b87f5]">TECH</span>
+          AI<span className="text-[#9b87f5]">FT</span>
         </a>
       </div>
     </nav>
