@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import { Navigation } from '../components/Navigation';
 import { Hero } from '../components/Hero';
-import { ProductShowcase } from '../components/ProductShowcase';
 import { ScrollProgress } from '../components/ScrollProgress';
 
 const Index = () => {
@@ -32,7 +31,6 @@ const Index = () => {
       <ScrollProgress />
       <Navigation />
       <Hero />
-      <ProductShowcase />
     </div>
   );
 };
