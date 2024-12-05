@@ -26,9 +26,6 @@ export const Hero = () => {
             [SEQUENCE_INIT: 47.892.1]
           </p>
         </div>
-        <button className="bg-transparent border border-[#0F0] text-[#0F0] px-8 py-4 rounded-none text-lg font-mono transition-all hover:bg-[#0F0] hover:text-black mb-16">
-          Enter
-        </button>
 
         <div className="max-w-lg mx-auto bg-black/40 backdrop-blur-sm border border-[#0F0]/20 p-6 rounded-sm">
           <button disabled className="bg-transparent border border-[#0F0]/50 text-[#0F0]/50 px-8 py-4 rounded-none text-lg font-mono cursor-not-allowed mb-6">
