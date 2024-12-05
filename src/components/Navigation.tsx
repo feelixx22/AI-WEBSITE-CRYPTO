@@ -20,11 +20,6 @@ export const Navigation = () => {
         <a href="/" className="text-2xl font-semibold text-white">
           FUTURE<span className="text-[#9b87f5]">TECH</span>
         </a>
-        <div className="hidden md:flex items-center space-x-8">
-          <a href="#products" className="text-gray-400 hover:text-[#9b87f5] transition-colors">Products</a>
-          <a href="#about" className="text-gray-400 hover:text-[#9b87f5] transition-colors">About</a>
-          <a href="#contact" className="text-gray-400 hover:text-[#9b87f5] transition-colors">Contact</a>
-        </div>
       </div>
     </nav>
   );
