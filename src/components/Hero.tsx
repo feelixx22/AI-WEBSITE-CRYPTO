@@ -31,9 +31,15 @@ export const Hero = () => {
         </button>
 
         <div className="max-w-lg mx-auto bg-black/40 backdrop-blur-sm border border-[#9b87f5]/20 p-6 rounded-sm">
-          <button disabled className="bg-transparent border border-[#9b87f5]/50 text-[#9b87f5]/50 px-8 py-4 rounded-none text-lg font-medium cursor-not-allowed">
+          <button disabled className="bg-transparent border border-[#9b87f5]/50 text-[#9b87f5]/50 px-8 py-4 rounded-none text-lg font-medium cursor-not-allowed mb-6">
             Agent (coming soon)
           </button>
+          <div className="mt-4">
+            <a href="/vision" className="inline-block bg-transparent border border-[#9b87f5] text-[#9b87f5] px-8 py-4 rounded-none text-lg font-medium transition-all hover:bg-[#9b87f5] hover:text-white">
+              Click here<br />
+              Understand the vision.
+            </a>
+          </div>
         </div>
       </div>
     </section>
