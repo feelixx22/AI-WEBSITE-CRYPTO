@@ -6,7 +6,7 @@ export const Hero = () => {
       <MatrixRain />
       <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/80" />
       <div className="container mx-auto px-6 py-32 text-center relative z-10 reveal">
-        <h1 className="text-5xl md:text-7xl lg:text-9xl tracking-[0.2em] mb-8 text-white" style={{
+        <h1 className="text-4xl md:text-5xl lg:text-7xl tracking-[0.2em] mb-8 text-white" style={{
           fontFamily: "'Orbitron', sans-serif",
           letterSpacing: '0.2em',
           textTransform: 'uppercase'
