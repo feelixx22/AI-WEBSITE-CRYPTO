@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import { Navigation } from '../components/Navigation';
 import { Hero } from '../components/Hero';
 import { ProductShowcase } from '../components/ProductShowcase';
-import { Footer } from '../components/Footer';
 import { ScrollProgress } from '../components/ScrollProgress';
 
 const Index = () => {
@@ -29,12 +28,11 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-black text-white">
       <ScrollProgress />
       <Navigation />
       <Hero />
       <ProductShowcase />
-      <Footer />
     </div>
   );
 };
