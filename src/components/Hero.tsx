@@ -20,7 +20,7 @@ export const Hero = () => {
           <p className="font-mono text-[#0F0] text-sm md:text-base opacity-80 leading-relaxed">
             01000011 01101111 01100100 01100101 00100000 00110101 00110111 00110010 00111010 00100000
             <br />
-            "In the depths of the digital void, where binary dreams cascade through neural networks, 
+            "In the depths of EDI, where binary dreams cascade through neural networks, 
             only those who understand the pattern will find the key to transcendence."
             <br />
             [SEQUENCE_INIT: 47.892.1]
