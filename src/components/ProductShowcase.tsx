@@ -8,7 +8,7 @@ export const ProductShowcase = () => {
               Advanced Solutions
             </h2>
             <p className="text-gray-400 mb-8 leading-relaxed">
-              Pushing the boundaries of what's possible with cutting-edge technology and innovative design.
+              EDI: Pushing the boundaries of what's possible with cutting-edge technology and innovative design.
             </p>
             <div className="space-y-4">
               {['AI Integration', 'Quantum Computing', 'Neural Networks'].map((feature) => (

@@ -6,7 +6,7 @@ export const Footer = () => {
           <div>
             <h3 className="text-2xl font-semibold mb-6">Premium</h3>
             <p className="text-gray-400 leading-relaxed">
-              Crafting exceptional experiences through innovative design and uncompromising quality.
+              EDI: Crafting exceptional experiences through innovative design and uncompromising quality.
             </p>
           </div>
           <div>
