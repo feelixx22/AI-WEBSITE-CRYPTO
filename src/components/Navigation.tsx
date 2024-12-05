@@ -32,7 +32,7 @@ export const Navigation = () => {
             className="text-white hover:text-[#0F0] hover:bg-transparent font-mono"
             onClick={() => window.open('https://ca.com', '_blank')}
           >
-            CA
+            Chart
           </Button>
           <Button
             variant="ghost"

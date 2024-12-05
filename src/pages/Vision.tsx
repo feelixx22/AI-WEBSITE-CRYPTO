@@ -18,10 +18,9 @@ const Vision = () => {
           </h1>
           <div className="max-w-lg mx-auto bg-black/40 backdrop-blur-sm border border-[#0F0]/20 p-6 rounded-sm mb-8">
             <p className="font-mono text-[#0F0] text-sm md:text-base opacity-80 leading-relaxed">
-              01000011 01101111 01100100 01100101 00100000 00110101 00110111 00110010 00111010 00100000
-              <br />
-              "The future is not a destination, but a transformation. Through the lens of artificial intelligence, 
-              we reshape the boundaries of what's possible."
+            
+        
+              Deep within the digital frontier, $EDI emerges as a bridge between human potential and artificial intelligence. We're creating something that feels like magic yet remains grounded in science - a partner in humanity's next great leap forward. Where others see lines of code, we see endless possibilities waiting to be unlocked.
               <br />
               [SEQUENCE_INIT: 89.233.4]
             </p>
